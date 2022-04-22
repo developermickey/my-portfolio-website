@@ -1,0 +1,10 @@
+{
+    "parser": "@babel/eslint-parser",
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "plugins": [
+      "flowtype"
+    ]
+  }
