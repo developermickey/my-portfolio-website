@@ -24,9 +24,9 @@ const Intro = () => {
                 Hire Me
             </button>
             <div className="i-icons">
-              <a href="#"><img src={Github} alt="" /></a> 
-              <a href="#"><img src={Linkedin} alt="" /></a> 
-              <a href="#"><img src={Instgram} alt="" /></a> 
+              <a href="https://github.com/developermickey"><img src={Github} alt="" /></a> 
+              <a href="https://www.linkedin.com/in/mukeshpathak345/"><img src={Linkedin} alt="" /></a> 
+              <a href="https://www.instagram.com/_.mickey.pathak._/"><img src={Instgram} alt="" /></a> 
             </div>
         </div>
         <div className="i-right">
@@ -34,9 +34,17 @@ const Intro = () => {
             <img src={Vector1} alt="" />
             <img src={Vector2} alt="" />
             <img src={boy} alt="" />
-            <div>
+            <img src={Glassimgji} alt="" />
+            <div style={{top: '-4%', left: '68%'}}>
             <FloatingDiv image={Crown} txt1='Web' txt2='Developer'/>
             </div>
+            <div style={{top: '18rem', left: '0rem'}}>
+            <FloatingDiv image={Thumbup} txt1='Best Design' txt2='Award'/>
+            </div>
+            {/* blue divs */}
+
+            <div className='blur' style={{background: "rgb(238 210 255)"}}></div>
+            <div className='blur' style={{background: '#C1F5FF', top: '17rem', width: '21rem', height: '11rem', left: '-9rem'}}></div>
 
         </div>
     </div>
